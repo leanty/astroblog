@@ -26,7 +26,7 @@ export default defineConfig({
   // Deploy to a sub path; See https://astro-pure.js.org/docs/setup/deployment#platform-with-base-path
   // base: '/astro-pure/',
   base: '/astroblog',
-  trailingSlash: 'never',
+  trailingSlash: 'always',
 
   // Adapter
   // https://docs.astro.build/en/guides/deploy/
