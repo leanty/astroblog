@@ -47,13 +47,14 @@ export const theme: ThemeUserConfig = {
   /** Configure the header of your site. */
 header: {
   menu: [
-    { title: 'Blog', link: `${config.base}/blog` },
-    { title: 'Docs', link: `${config.base}/docs` },
-    { title: 'Projects', link: `${config.base}/projects` },
-    { title: 'Links', link: `${config.base}/links` },
-    { title: 'About', link: `${config.base}/about` }
+    { title: 'Blog', link: '/astroblog/blog' },
+    { title: 'Docs', link: '/astroblog/docs' },
+    { title: 'Projects', link: '/astroblog/projects' },
+    { title: 'Links', link: '/astroblog/links' },
+    { title: 'About', link: '/astroblog/about' }
   ]
 }
+
 ,
 
   /** Configure the footer of your site. */
