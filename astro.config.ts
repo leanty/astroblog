@@ -25,7 +25,7 @@ export default defineConfig({
   site: 'https://leanty.github.io',
   // Deploy to a sub path; See https://astro-pure.js.org/docs/setup/deployment#platform-with-base-path
   // base: '/astro-pure/',
-  base: '/astroblog/',
+  base: '/astroblog',
   // trailingSlash: 'always',
 
   // Adapter
